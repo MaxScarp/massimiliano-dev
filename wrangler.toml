@@ -1,0 +1,14 @@
+name = "portfolio"
+compatibility_date = "2026-05-14"
+
+[assets]
+directory = "./dist"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+
+[[rules]]
+type = "header"
+value = '''
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+'''
